@@ -31,13 +31,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($count > 0) {
     echo "Password found in system!";
+    include 'loginfail.html';
     } else {
     // Insert the hashed comment into the database
     $stmt = $conn->prepare("INSERT INTO comments (comment) VALUES (:comment)");
     $stmt->execute([
         'comment' => $hashedComment
     ]);
-    echo "Comment submitted successfully! <a href='index.html'>Leave another comment</a>";
+    include 'loginsuccess.html';
     }
 }
 ?>
