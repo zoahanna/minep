@@ -1,9 +1,9 @@
 <?php
 // Database configuration
-$host = 'localhost';
+$host = 'q04kccgwswkgw44cscw0ggow';
 $dbname = 'comment_system';
-$username = 'admin';
-$password = 'laudadatcam';
+$username = 'mysql';
+$password = '9VFvVj1EltaFOsArhf6CB765KRmtG2Y24JZ9MUOTFZ7efZI3RrJoDdAv01nJr0oy';
 
 // Connect to the database
 try {
