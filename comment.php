@@ -1,7 +1,7 @@
 <?php
 // Database configuration
 $host = 'q04kccgwswkgw44cscw0ggow';
-$dbname = 'comment_system';
+$dbname = 'mysql-database-nk8g4kso48o080w8w8kgwc4o';
 $username = 'mysql';
 $password = '9VFvVj1EltaFOsArhf6CB765KRmtG2Y24JZ9MUOTFZ7efZI3RrJoDdAv01nJr0oy';
 
