@@ -2,8 +2,8 @@
 // Database configuration
 $host = 'localhost';
 $dbname = 'comment_system';
-$username = 'root';
-$password = '';
+$username = 'admin';
+$password = 'laudadatcam';
 
 // Connect to the database
 try {
